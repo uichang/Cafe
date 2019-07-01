@@ -1,0 +1,58 @@
+.r_list {padding:40px 0; width:800px; height:700px; margin:0 auto;}
+h1 {text-align:center; font-size:30px; font-weight:bold; margin-bottom:20px;}
+h1 > span {font-size:18px; text-decoration:underline; color:#777;}
+
+table {
+   border-top:2px solid #222; 
+   width:100%;
+   text-align:center;
+}
+th, td {padding:6px;border-bottom:1px solid #999}
+tbody tr {border-bottom:1px solid #999;}
+tbody a {width:100%; height:100%; display:block; text-indent:10px;}
+tbody a:hover {background:#9e9374;opacity:0.8;}
+.choose {margin-bottom:10px;}
+.choose span {font-size:15px;}
+.choose select {vertical-align:middle; width:100px; height:24px; border-radius:4px;}
+.choose input {width:120px; height:24px;vertical-align:middle; padding:3px;margin:0;}
+.choose li{float:left; margin-right:35px;}
+.choose li:first-child select {width:80px;}
+.choose li:last-child{float:right; margin:0;}
+.choose li:last-child button { 
+   width:60px; 
+   display:inline-block; 
+   margin:0; 
+   height:26px;
+   line-height:1.7px;
+   background:#9e9374;
+}
+.r_list button {width:100px; margin:20px auto; display:block;}
+.reser { width:70%; padding:30px; margin:0 auto;}
+.reser p {text-align:center; font-size:30px; font-weight:bold; background:#9e9374; color:#fff; 
+   border-radius:2px; margin-bottom:30px; letter-spacing:10px;}
+.r_btn { width:200px; display:block; margin:30px auto 0;}
+.reservation {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+.reservation_form {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 360px;
+  padding:20px;
+}
+.reservation_form select {vertical-align:middle; height:30px;}
+.reservation_form p {letter-spacing:0; padding:4px 0;}
+.calenCon {width:300px; margin:0 auto;}
+.calenCon label {margin-right:10px;}
+.calenCon input {width:220px;}

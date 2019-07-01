@@ -1,0 +1,37 @@
+.cont {padding:40px 0; width:80%; height:700px; margin:0 auto;}
+h1 {text-align:center; font-size:30px; font-weight:bold; margin-bottom:20px;}
+.t_tit {font-size:22px; font-weight:bold; margin-bottom:20px;}
+.t_tit span:first-child {display:inline-block; margin-right:10px; font-size:18px; color:#91a4c4;}
+.t_tit span:last-child {color:#555;}
+.con { width:100%; text-align:left; margin-bottom:50px;}
+.con thead {border-bottom:1px solid #777; }
+.con th { text-align:left; font-weight:normal; font-size:13px; padding-bottom:6px;}
+.con th a, .rep tr:nth-child(odd) a {font-size:12px; font-weight:bold;}
+.con th a:hover, .rep tr:first-child a:hover {color:#666;}
+.con th strong, .con th span {color:#777; margin-right:14px;}
+.con tbody td { padding-top:14px;}
+.rep {width:100%; font-size:14px; margin-bottom:30px;}
+.rep tr:nth-child(odd) td:first-child {font-size:16px;}
+.rep tr:nth-child(odd) strong, .rep tr:nth-child(odd) span {color:#777; margin-right:14px; font-size:13px;}
+.rep tr:nth-child(even) {border-bottom:1px dotted #333;}
+.rep tr:last-child {border-bottom:none;}
+.rep tr:nth-child(odd) td:last-child {padding:10px 0 4px;}
+.rep tr:nth-child(even) td {padding-bottom:10px;}
+.reply_in {position:relative; 
+	width:600px;
+}
+.reply_in input {height:40px; vertical-align:middle; padding-right:85px; border-color:#777;}
+.reply_in a {
+	display:inline-block; 
+	position:absolute; 
+	top:8px; right:0; 
+	width:80px; height:38px;
+	line-height:38px;
+	border:1px solid #777;
+	border-radius:4px;
+	text-align:center;
+}
+.reply_in a:hover {
+	background:#9e9374;
+	color:#fff;
+	}

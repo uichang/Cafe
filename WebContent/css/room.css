@@ -1,0 +1,16 @@
+.room_con {width:900px; margin:0 auto; padding:40px 0;}
+.room_con ul { position:relative; margin-bottom:20px; }
+.room_con li:first-child {float:left;}
+.room_con li:last-child {float:right;}
+.room_con li div {
+	position:absolute; top:0; 
+	width:400px; height:177px; 
+	background:black; color:#fff;
+	opacity:0;
+	transition: opacity 0.3s;
+	text-align:center;
+	padding-top:90px;
+	font-weight:bold;
+	line-height:1.7;
+}
+.room_con img {width:400px; height:267px;}

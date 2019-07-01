@@ -1,0 +1,28 @@
+.wt {padding:40px 0;}
+.wt table, .wt ul {width:800px;margin:0 auto;}
+h1 {text-align:center; font-size:30px; font-weight:bold; margin-bottom:20px;}
+h1 > span {font-size:18px; text-decoration:underline; color:#777;}
+tbody {border-top:3px solid #333;}
+.wt td {padding:10px 0; text-align:center;}
+.wt ul {margin-bottom:8px; text-align:right;}
+.wt ul a {
+	width:60px; 
+	height:30px; 
+	display:inline-block; 
+	text-align:center;
+	border:1px solid #777;
+	border-radius:2px;
+	font-size:16px;
+	line-height:30px;
+	font-weight:bold;
+}
+.wt td {border-bottom:1px solid #333;}
+.wt td input {width:80%; padding:8px; border-color:#999; margin:0;}
+.wt textarea {
+	border:1px solid #999; 
+	overflow:hidden; 
+	border-radius:4px; 
+	padding:4px; 
+	font-size:16px;
+}
+.wt button {width:200px;}

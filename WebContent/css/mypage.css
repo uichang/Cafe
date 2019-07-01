@@ -1,0 +1,60 @@
+.my_con {background:#eaf0f9; width:1000px;margin:0 auto;}
+.my_menu {
+	width:300px;
+	min-height:500px;
+	text-align:center; 
+	padding:20px 0 40px; 
+	float:left;
+}
+.l_name {width:50%; margin:0 auto; font-weight:bold; text-align:leftcenter; margin-bottom:20px; padding:6px 0; border-bottom:3px double #555;}
+.my_menu ul li {margin-bottom:8px;}
+.my_menu a:hover {background:none; color:#8d8e73;}
+.my_menu form { width:240px; margin:0 auto; padding:2px;}
+.my_menu form input { width:180px; height:22px; line-height:1.7px; vertical-align:middle;}
+.my_menu .status .pl {text-align:left;}
+.my_menu .status .pl input {width:140px;}
+.my_menu .status .pl button {width:50px; padding:5px; background:#4a699b; vertical-align:middle;}
+.s_tab, .m_tab {
+	width:240px; margin:0 auto 30px;
+	text-align:center;
+	border:1px solid #777;
+	background:#fff;
+	font-size:14px;
+}
+.s_tab tr {border-bottom:1px solid #777;}
+.s_tab tr:last-child {border-bottom:none;}
+.s_tab td:first-child, .m_tab td:first-child {padding:4px; border-right:1px solid #777;}
+.my_menu_con {
+	width:700px;
+	min-height:500px;
+	float:right;
+	padding:40px 0 20px;
+	margin:0 auto;
+}
+.my_reservation {width:600px; margin:0 auto;}
+.my_reservation table, .management table {
+   border-top:2px solid #222; 
+   width:100%;
+   text-align:center;
+   font-size:14px;
+   margin-bottom:20px;
+}
+.my_reservation th, td {padding:6px;border-bottom:1px solid #999}
+.my_reservation tbody tr, .management tbody tr {border-bottom:1px solid #999;}
+
+.data_change, .m_data_change {width:500px; margin:0 auto;}
+.dchange_form p {padding-bottom:10px;}
+.dchange_form p strong {display:inline-block; padding:10px 0;}
+.dchange_form p span {margin:0 40px 0 10px;}
+p select {width:100px; border-radius:2px; height:24px;}
+.btnDiv button {background:#9e9374; padding:8px 0; width:140px;}
+
+.leave form {width:400px; margin:0 auto; text-align:center;}
+.leave_form {text-align:center; padding-top:40px;}
+.leave_form input {width:300px; margin:16px 0;}
+.my_reservation, .data_change, .leave, .management, .m_data_change {display:none;}
+
+.management { width:300px; margin:0 auto;}
+.management th {padding:10px;border-bottom:1px solid #999}
+.management td {padding:0;border-bottom:1px solid #999}
+.management a {width:100%; display:inline-block; height:30px; line-height:30px;}
